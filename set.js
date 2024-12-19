@@ -40,7 +40,7 @@ GOODBYE: process.env.GOODBYE || "false",
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // Enter value to true for blueticking all messages, or commands for blueticking only commands else false
 AUTO_BLOCK: process.env.AUTO_BLOCK || "212,79", // Add Multiple Country Codes Separated by Comma...
 PRESENCE: process.env.PRESENCE || "null", // Choose one: typing, recording, online, null
-TIME_ZONE: process.env.TIME_ZONE || "Africa/Nairobi", // Enter yours else leave blank if not sure
+TIME_ZONE: process.env.TIME_ZONE || "	Asia/Karachi", // Enter yours else leave blank if not sure
 };
 
 global.myDb = "https://giftedmd.giftedtech.my.id"; // DO NOT Change this...
